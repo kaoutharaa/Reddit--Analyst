@@ -27,11 +27,11 @@ from state2_manager import update_analysis_data
 import praw
 
 reddit = praw.Reddit(
-    client_id="_XSiH1rREA1oRh7SyRXXNA",  
-    client_secret="fo9sZoMq8jXiq13e8tUm7xKWEqT2Yg",   
-    user_agent="test_api",   
-    username="Ok-Cicada-6705",   
-    password="pookie123"  
+    client_id="",  
+    client_secret="",   
+    user_agent="",   
+    username="",   
+    password=""  
 )
 
  
