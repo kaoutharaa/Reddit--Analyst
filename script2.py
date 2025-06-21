@@ -31,11 +31,11 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 reddit = praw.Reddit(
-    client_id="_XSiH1rREA1oRh7SyRXXNA",  # Your Client ID
-    client_secret="fo9sZoMq8jXiq13e8tUm7xKWEqT2Yg",  # Your Client Secret
-    user_agent="test_api",  # Your app's user agent
-    username="Ok-Cicada-6705",  # Your Reddit username
-    password="pookie123"  # Your Reddit password
+    client_id="",  
+    client_secret="",  
+    user_agent="",   
+    username="",   
+    password=""   
  )
  
  
