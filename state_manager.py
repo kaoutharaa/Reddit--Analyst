@@ -1,29 +1,4 @@
-# import json
-# import os
-
-# STATS_FILE = "stats.json"
-
-# def init_stats():
-#     if not os.path.exists(STATS_FILE):
-#         stats = {
-#             "subreddits_analyzed": 0,
-#             "posts_analyzed": 0,
-#             "comments_collected": 0,
-#             "sentiment_analyses_done": 0
-#         }
-#         with open(STATS_FILE, "w") as f:
-#             json.dump(stats, f, indent=4)
-
-# def read_stats():
-#     with open(STATS_FILE, "r") as f:
-#         return json.load(f)
-
-# def update_stat(key, increment=1):
-#     stats = read_stats()
-#     if key in stats:
-#         stats[key] += increment
-#         with open(STATS_FILE, "w") as f:
-#             json.dump(stats, f, indent=4)
+ 
 import json
 import os
 
@@ -59,7 +34,4 @@ def update_stats(subreddits=0, posts=0, comments=0, sentiments=0):
 
 
 
-
-# with open("reddit_stock.json", "r") as file:
-#     stats = json.load(file)
-#     print(stats)
+ 
